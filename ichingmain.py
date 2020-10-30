@@ -17,15 +17,17 @@ from hexagram_key import Hex_Meaning
 
 # coder input
 
-myHexagram = Construct_Hexagram()
-myHexagram.addToss("h", "t", "t")
-myHexagram.addToss("h", "h", "h")
-myHexagram.addToss("t", "h", "t") 
-myHexagram.addToss("t", "t", "t") 
-myHexagram.addToss("h", "t", "h") 
-myHexagram.addToss("t", "t", "t") 
-myHexagram.loopThroughTosses()
+# myHexagram = Construct_Hexagram()
+# myHexagram.addToss("h", "t", "t")
+# myHexagram.addToss("h", "h", "h")
+# myHexagram.addToss("t", "h", "t") 
+# myHexagram.addToss("t", "t", "t") 
+# myHexagram.addToss("h", "t", "h") 
+# myHexagram.addToss("t", "t", "t") 
+# myHexagram.loopThroughTosses()
 
-print(myHexagram.getHexagram())
+# print(myHexagram.getHexagram())
 
-print(myHexagram.getTrigram())
+# print(myHexagram.getTrigram())
+
+# randomized input
