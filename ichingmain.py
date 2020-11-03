@@ -32,24 +32,12 @@ from random import choice
 # print(myHexagram.getTrigram())
 
 
-# Hexagram interpretations:
-
-# if "1" in myHexagram.getTrigram():
-# 	print(hexagram_interpretations["1"])
-
-# if "30" in myHexagram.getTrigram():
-# 	print(hexagram_interpretations["30"])
-
-
 # randomized input
 
 randomTrigram = choice(list(Trigrams.items()))
 randomHexagram  = randomTrigram + randomTrigram
-# print("Your automatic computer generated divinatory Hexagram is:\n" + str(randomHexagram))
-
 trigram_values = list(Trigrams.values())
 trigram_keys = list(Trigrams.keys())
-
 def getRandoTrigram(trigram_value):
 	trigram = choice(trigram_value)
 	line = trigram_keys[trigram_values.index(trigram)]
@@ -58,15 +46,16 @@ def getRandoTrigram(trigram_value):
 	return trigram
 upper = getRandoTrigram(trigram_values)
 lower = getRandoTrigram(trigram_values)
-
 hex_value = Hex_Meaning[upper, lower]
-
 print("Upper: " + upper)
 print("Lower: " + lower)
-
 print("Hexagram Value: " + hex_value)
 
 
+# Hexagram interpretations:
 
+# if "1" in myHexagram.getTrigram():
+# 	print(hexagram_interpretations["1"])
 
-
+# if "30" in myHexagram.getTrigram():
+# 	print(hexagram_interpretations["30"])
