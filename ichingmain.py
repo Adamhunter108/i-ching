@@ -48,7 +48,8 @@ def getRandoTrigram(trigram_value):
 upper = getRandoTrigram(trigram_values)
 lower = getRandoTrigram(trigram_values)
 hex_value = Hex_Meaning[upper, lower]
-myHexagram = (f"Upper: {upper}\nLower: {lower}\nHexagram Value: {hex_value}")
+
+myHexagram = (f"Upper: {upper}\nLower: {lower}\nHexagram Value: {hex_value}\nHexagram Interpretation: "+hexagram_interpretations[hex_value])
 print(myHexagram)
 
 
