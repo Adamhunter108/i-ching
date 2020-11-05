@@ -1,6 +1,7 @@
 from ichingmath import Construct_Hexagram
 from hexagram_key import Trigrams, Hex_Meaning
 from hex_interpretation import hexagram_interpretations
+import random
 from random import choice
 
 
@@ -47,15 +48,18 @@ def getRandoTrigram(trigram_value):
 upper = getRandoTrigram(trigram_values)
 lower = getRandoTrigram(trigram_values)
 hex_value = Hex_Meaning[upper, lower]
-print("Upper: " + upper)
-print("Lower: " + lower)
-print("Hexagram Value: " + hex_value)
+myHexagram = (f"Upper: {upper}\nLower: {lower}\nHexagram Value: {hex_value}")
+print(myHexagram)
 
 
 # Hexagram interpretations:
 
 # if "1" in myHexagram.getTrigram():
 # 	print(hexagram_interpretations["1"])
+# if "2" in myHexagram.getTrigram():
+# 	print(hexagram_interpretations["2"])
+# if "3" and not "0" in myHexagram.getTrigram():
+# 	print(hexagram_interpretations["3"])
+# if "4" in myHexagram.getTrigram():
+# 	print(hexagram_interpretations["4"])
 
-# if "30" in myHexagram.getTrigram():
-# 	print(hexagram_interpretations["30"])
