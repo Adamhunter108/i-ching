@@ -48,18 +48,19 @@ def getRandoTrigram(trigram_value):
 upper = getRandoTrigram(trigram_values)
 lower = getRandoTrigram(trigram_values)
 hex_value = Hex_Meaning[upper, lower]
+
 myHexagram = (f"Upper: {upper}\nLower: {lower}\nHexagram Value: {hex_value}")
 print(myHexagram)
 
 
 # Hexagram interpretations:
 
-if "1" in myHexagram:
-	print(hexagram_interpretations["1"])
-if "2" in myHexagram:
-	print(hexagram_interpretations["2"])
-if "3" and not "0" in myHexagram:
-	print(hexagram_interpretations["3"])
-if "4" in myHexagram:
-	print(hexagram_interpretations["4"])
+# if "1" in myHexagram:
+# 	print(hexagram_interpretations["1"])
+# if "2" in myHexagram:
+# 	print(hexagram_interpretations["2"])
+# if "3" and not "0" in myHexagram:
+# 	print(hexagram_interpretations["3"])
+# if "4" in myHexagram:
+# 	print(hexagram_interpretations["4"])
 
