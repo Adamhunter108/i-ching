@@ -54,12 +54,12 @@ print(myHexagram)
 
 # Hexagram interpretations:
 
-# if "1" in myHexagram.getTrigram():
-# 	print(hexagram_interpretations["1"])
-# if "2" in myHexagram.getTrigram():
-# 	print(hexagram_interpretations["2"])
-# if "3" and not "0" in myHexagram.getTrigram():
-# 	print(hexagram_interpretations["3"])
-# if "4" in myHexagram.getTrigram():
-# 	print(hexagram_interpretations["4"])
+if "1" in myHexagram:
+	print(hexagram_interpretations["1"])
+if "2" in myHexagram:
+	print(hexagram_interpretations["2"])
+if "3" and not "0" in myHexagram:
+	print(hexagram_interpretations["3"])
+if "4" in myHexagram:
+	print(hexagram_interpretations["4"])
 
