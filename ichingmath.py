@@ -39,19 +39,3 @@ class Construct_Hexagram:
 				self.diagram.append(odd)
 			else:
 				self.diagram.append(even)
-
-
-#construct hexagram
-
-# myHexagram = Construct_Hexagram()
-# myHexagram.addToss("t", "t", "t") 
-# myHexagram.addToss("t", "t", "t") 
-# myHexagram.addToss("t", "t", "t") 
-# myHexagram.addToss("tails", "t", "t") 
-# myHexagram.addToss("tails", "t", "t") 
-# myHexagram.addToss("tails", "t", "t") 
-
-# myHexagram.loopThroughTosses()
-
-# print(myHexagram.getHexagram())
-# print(myHexagram.getTrigram())

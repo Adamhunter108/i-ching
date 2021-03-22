@@ -58,16 +58,54 @@ def rando_hex():
 	print(myHexagram)
 
 
+def instructions():
+	print("""
+To consult with the Book of Changes:
+Take 3 ordinary coins as similar as possible.  Think about a question that you would like guidance with.
+Shake and toss all 3 coins at the same time.  Input whether they come up heads or tails.  
+You may type 'heads', 'tails' or abbreviate to 'h' or 't'.
+You will be prompted to do 6 tosses total. Your hexagram will be constructed.  There are 64 unique
+hexagrams and each one has a value that can be independently researched and studied further.
+(Google your hexagram value for more information)""")
+	start()
+
+def start():
+	print("""
+	☯ ☯ ☯ ☯ ☯ ☯ ☯ ☯ ☯ ☯ ☯ ☯ ☯ ☯ ☯ ☯ ☯ ☯ ☯ ☯ ☯ ☯
+
+		Choose your path:
+	Type 'm' for manual input. 
+	Type 'a' for automatic computer generated tosses.
+	Type 'i' for instructions.
+	""")
+	manual_or_auto = input("Manual, Auto or Instructions? ")
+	if manual_or_auto == 'm':
+		user_input()
+	elif manual_or_auto == 'i':
+		instructions()
+	else:
+		rando_hex()
+
 print("""
+		Welcome to the I Ching.	""")
+start()
+print("""
+	                .
+	         .............##
+	      .................####
+	    ...........###......#####
+	   ...........#####......#####
+	  .............###......#######
+	 ......................#########
+	 .....................##########
+	.................################
+	 ..........#####################
+	 .........######################
+	  .......######...#############
+	   .....######.....###########
+	    .....######...###########
+	      ....#################
+	         ..#############
+	    		#
 
-Welcome to the I Ching.
-
-Choose your path.
-Type 'm' for manual input or 'a' for automatic 
-computer generated tosses.
 """)
-manual_or_auto = input("Manual or Auto? ")
-if manual_or_auto == 'm':
-	user_input()
-else:
-	rando_hex()
