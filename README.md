@@ -3,7 +3,7 @@
 Consult the Book of Changes.
 
 ###### What is I Ching:
-I Ching, usually translated to 'book of changes' is an ancient Chinese divination text that provides guidence for moral decision making as informed by Confucianism, Taoism and Buddhism. 
+I Ching, usually translated to 'book of changes', is an ancient Chinese divination text that provides guidence for moral decision making as informed by Confucianism, Taoism and Buddhism. 
 
 
 ###### How to consult the Book of Changes:
