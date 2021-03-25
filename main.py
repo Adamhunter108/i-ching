@@ -39,6 +39,7 @@ def user_input():
 	print(myHexagram.getTrigram() + '\n')
 	# needs interpretation
 
+
 # randomized input
 def rando_hex():
 	randomTrigram = choice(list(Trigrams.items()))
