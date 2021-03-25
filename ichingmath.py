@@ -29,7 +29,7 @@ class Construct_Hexagram:
 	def getTrigram(self):
 		upper = tuple(self.diagram[3:])
 		lower = tuple(self.diagram[:3])
-		return "Upper: "+ Trigrams[upper] + '\nLower: '+Trigrams[lower] + '\nHexagram Value: '+ Hex_Meaning[Trigrams[upper],Trigrams[lower]] +'\nHexagram Interpretation: ' + hexagram_interpretations[Hex_Meaning[Trigrams[upper],Trigrams[lower]]]
+		return "Upper: "+ Trigrams[upper] + '\nLower: '+Trigrams[lower] + '\nHexagram Value: '+ Hex_Meaning[Trigrams[upper],Trigrams[lower]] + '\n' + hexagram_interpretations[Hex_Meaning[Trigrams[upper],Trigrams[lower]]]
 
 
 	def loopThroughTosses(self): 
