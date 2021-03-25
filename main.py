@@ -37,7 +37,7 @@ def user_input():
 	myHexagram.loopThroughTosses()
 	print('\n' + myHexagram.getHexagram())
 	print(myHexagram.getTrigram() + '\n')
-
+	# needs interpretation
 
 # randomized input
 def rando_hex():

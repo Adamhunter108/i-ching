@@ -19,7 +19,7 @@ Note: Some versions of the I Ching will require additional tosses due to changin
 ---
 
 ###### Requirements:
-Python 3
+* Python 3
 
 ---
 
