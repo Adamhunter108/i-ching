@@ -12,7 +12,7 @@ Take 3 ordinary coins as similar as possible, think about a question that you wo
 ---
 
 ### `About Project:`
-This command line program, built in Python, gives you the option to manually input the results of your coin tosses or will automatically provide you with a random result.  
+This Python command line program gives a user the option to manually input the results of your coin tosses or will automatically provide you with a random result.  
 
 Note: Some versions of the I Ching will require additional tosses due to changing lines and mutating hexagrams, this program takes those nuances into account and only provides the user with their final hexagram.
 
